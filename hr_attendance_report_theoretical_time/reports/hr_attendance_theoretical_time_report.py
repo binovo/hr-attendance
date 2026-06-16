@@ -198,12 +198,12 @@ CREATE or REPLACE VIEW %s as (
         """
         if not employee.resource_id.calendar_id:
             return 0
-        tz = employee.resource_id.calendar_id.tz
+        date_from, date_to = self._prepare_interval(employee, date)
         res = employee.with_context(
             exclude_public_holidays=True, employee_id=employee.id
         )._get_work_days_data_batch(
-            datetime.combine(date, time(0, 0, 0, 0, tzinfo=pytz.timezone(tz))),
-            datetime.combine(date, time(23, 59, 59, 99999, tzinfo=pytz.timezone(tz))),
+            date_from,
+            date_to,
             # Pass this domain for excluding leaves whose type is included in
             # theoretical hours
             domain=[
@@ -213,6 +213,12 @@ CREATE or REPLACE VIEW %s as (
             ],
         )
         return res[employee.id]["hours"]
+
+    def _prepare_interval(self, employee, date):
+        tz = employee.resource_id.calendar_id.tz
+        date_from = datetime.combine(date, time(0, 0, 0, 0, tzinfo=pytz.timezone(tz)))
+        date_to = datetime.combine(date, time(23, 59, 59, 99999, tzinfo=pytz.timezone(tz)))
+        return date_from, date_to
 
     @api.model
     def read_group(self, domain, fields, groupby, offset=0, limit=None, orderby=False, lazy=True):
