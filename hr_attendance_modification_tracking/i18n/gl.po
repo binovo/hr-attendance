@@ -4,37 +4,37 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-09-05 08:42+0000\n"
-"Last-Translator: Jonathan Pasquier <jpasquier@fundesplai.org>\n"
+"PO-Revision-Date: 2026-05-23 16:10+0000\n"
+"Last-Translator: Pablo Castelo <pablocv@gmx.es>\n"
 "Language-Team: none\n"
-"Language: ca\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__message_needaction
 msgid "Action Needed"
-msgstr "Acció requerida"
+msgstr "Acción Necesaria"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__message_attachment_count
 msgid "Attachment Count"
-msgstr "Nombre de fitxers adjunts"
+msgstr "Cálculo de Anexos"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model,name:hr_attendance_modification_tracking.model_hr_attendance
 msgid "Attendance"
-msgstr "Assistència"
+msgstr "Asistencia"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model,name:hr_attendance_modification_tracking.model_hr_employee_base
 msgid "Basic Employee"
-msgstr "Empleat bàsic"
+msgstr "Empregado Básico"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__check_in
@@ -46,94 +46,94 @@ msgstr "Entrada"
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__check_out
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_employee__last_check_out
 msgid "Check Out"
-msgstr "Sortida"
+msgstr "Saída"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__employee_id
 msgid "Employee"
-msgstr "Empleat"
+msgstr "Empregado"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__message_follower_ids
 msgid "Followers"
-msgstr "Seguidors"
+msgstr "Seguidores/as"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Seguidors (Partners)"
+msgstr "Seguidores/as (Socios)"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__has_message
 msgid "Has Message"
-msgstr "Té missatge"
+msgstr "Ten Mensaxe"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,help:hr_attendance_modification_tracking.field_hr_attendance__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Si està marcat, els nous missatges requereixen la vostra atenció."
+msgstr "Se están marcados, novas mensaxes requiren a súa atención."
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,help:hr_attendance_modification_tracking.field_hr_attendance__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Si està marcat, alguns missatges tenen un error de lliurament."
+msgstr "Se está seleccionado, algunhas mensaxes teñen un erro de entrega."
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__message_is_follower
 msgid "Is Follower"
-msgstr "És seguidor"
+msgstr "É seguidor/a"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_employee_base__last_check_in
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_employee_public__last_check_in
 msgid "Last Check In"
-msgstr "Última entrada"
+msgstr "Último Rexistro de Entrada"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_employee_base__last_check_out
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_employee_public__last_check_out
 msgid "Last Check Out"
-msgstr "Última sortida"
+msgstr "Último Rexistro de Saída"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Fitxer adjunt principal"
+msgstr "Adxunto Principal"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__message_has_error
 msgid "Message Delivery error"
-msgstr "Error de lliurament del missatge"
+msgstr "Erro de Entrega de Mensaxe"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__message_ids
 msgid "Messages"
-msgstr "Missatges"
+msgstr "Mensaxes"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Nombre d'accions"
+msgstr "Número de Accións"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__message_has_error_counter
 msgid "Number of errors"
-msgstr "Nombre d'errors"
+msgstr "Número de Erros"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,help:hr_attendance_modification_tracking.field_hr_attendance__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "Nombre de missatges que requereixen acció"
+msgstr "Número de mensaxes que requiren unha acción"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,help:hr_attendance_modification_tracking.field_hr_attendance__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Nombre de missatges amb error de lliurament"
+msgstr "Número de mensaxes con erro de entrega"
 
 #. module: hr_attendance_modification_tracking
 #: model_terms:ir.ui.view,arch_db:hr_attendance_modification_tracking.hr_attendance_view_tree_open
 msgid "Open"
-msgstr "Obrir"
+msgstr "Aberto"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,help:hr_attendance_modification_tracking.field_hr_attendance__time_changed_manually
@@ -141,16 +141,16 @@ msgid ""
 "This attendance has been manually changed by user. If attendance is created "
 "from form view, a 60 seconds tolerance will be applied."
 msgstr ""
-"Aquesta assistència ha estat modificada manualment per l'usuari. Si "
-"l'assistència es crea des de la vista de formulari, s'aplicarà una "
-"tolerància de 60 segons."
+"Esta asistencia foi modificada manualmente polo usuario. Se a asistencia "
+"créase desde a vista de formulario, aplicarase unha tolerancia de 60 "
+"segundos."
 
 #. module: hr_attendance_modification_tracking
 #: model_terms:ir.ui.view,arch_db:hr_attendance_modification_tracking.hr_attendance_view_search
 msgid "Time Changed"
-msgstr "L'hora ha canviat"
+msgstr "Tempo editado"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__time_changed_manually
 msgid "Time changed"
-msgstr "L'hora ha canviat"
+msgstr "Tempo editado"
