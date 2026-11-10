@@ -116,6 +116,12 @@ CREATE or REPLACE VIEW %s as (
                             ON hr_employee (department_id);
             """)
 
+    def _prepare_interval(self, employee, date):
+        tz = employee.resource_id.calendar_id.tz
+        date_from = datetime.combine(date, time(0, 0, 0, 0, tzinfo=pytz.timezone(tz)))
+        date_to = datetime.combine(date, time(23, 59, 59, 99999, tzinfo=pytz.timezone(tz)))
+        return date_from, date_to
+
     # TODO: To be activated for performance assuring cache clearing on changes
     # @tools.ormcache('employee.id', 'date')
     @api.model
